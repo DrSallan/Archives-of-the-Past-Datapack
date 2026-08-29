@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "herobrine"
+                  ]
+                },
+                "item_name": {
+                  "translate": "item.old.herobrine",
+                  "color": "white"
+                },
+                "tooltip_style": "s_archive:old",
+                "lore" : [
+                  {"translate":"item.old.herobrine.source","color":"aqua","italic":false},
+                  {"text":""},
+                  [
+                    {"translate":"item.flavor1","color":"gray","italic":false}
+                  ],
+                  [
+                    {"translate":"item.flavor2","color":"gray","italic":false}
+                  ],
+                  {"text":""},
+                  [
+                    {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
+                  ]
+                ],
+                "custom_data": {
+                  "area" : "old",
+                  "slot_id" : "herobrine"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

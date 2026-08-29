@@ -1,0 +1,3 @@
+execute align xyz run kill @e[tag=doorway_dis,dx=0,dy=0,dz=0]
+execute align xyz run summon item_display ~0.5 ~ ~0.5 {item:{id:"diamond",count:1,components:{item_model:"s_archive:general",custom_model_data:{strings:["doorway_big"]}}},item_display:"head",Tags:["doorway_exit_dis"]}
+kill @s

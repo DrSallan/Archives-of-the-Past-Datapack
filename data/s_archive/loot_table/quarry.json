@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "quarry"
+                  ]
+                },
+                "item_name": {
+                  "translate": "item.mod.quarry",
+                  "color": "white"
+                },
+                "tooltip_style": "s_archive:mod",
+                "lore" : [
+                  {"translate":"item.mod.quarry.source","color":"aqua","italic":false},
+                  {"text":""},
+                  [
+                    {"translate":"item.flavor1","color":"gray","italic":false}
+                  ],
+                  [
+                    {"translate":"item.flavor2","color":"gray","italic":false}
+                  ],
+                  {"text":""},
+                  [
+                    {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
+                  ]
+                ],
+                "custom_data": {
+                  "area" : "mod",
+                  "slot_id" : "quarry"
+                },
+                "max_stack_size": 1,
+                "damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

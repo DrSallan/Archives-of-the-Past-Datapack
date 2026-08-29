@@ -1,0 +1,32 @@
+{
+  "parent": "s_archive:game/real/mask",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "horse"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.real.horse",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.real.horse"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

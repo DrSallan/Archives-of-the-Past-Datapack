@@ -1,0 +1,1 @@
+$summon item_display ~ ~ ~ {Rotation:[$(rotation),0.0f],item:{id:"diamond",count:1,components:$(components)},Tags:["appear_anim"],data:{animation:[0,0.6054,1,1.1229,1.097,1.0383,1,0.9881,0.9906,0.9963,1,1.0012,1.0009]},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]},item_display:"head"}

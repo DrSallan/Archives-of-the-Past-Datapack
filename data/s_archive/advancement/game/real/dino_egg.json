@@ -1,0 +1,32 @@
+{
+  "parent": "s_archive:game/real/club",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "dino_egg"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.real.dino_egg",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.real.dino_egg"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

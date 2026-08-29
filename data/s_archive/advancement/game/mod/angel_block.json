@@ -1,0 +1,33 @@
+{
+  "parent": "s_archive:game/mod/chisel",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "angel_block"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.mod.angel_block",
+      "fallback": "Angel Block",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.mod.angel_block"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

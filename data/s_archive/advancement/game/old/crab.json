@@ -1,0 +1,32 @@
+{
+  "parent": "s_archive:game/old/glare",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "crab"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.old.crab",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.old.crab"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

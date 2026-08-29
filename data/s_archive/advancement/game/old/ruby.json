@@ -1,0 +1,33 @@
+{
+  "parent": "s_archive:game/old/cog",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "ruby"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.old.ruby",
+      "fallback": "Angel Block",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.old.ruby"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

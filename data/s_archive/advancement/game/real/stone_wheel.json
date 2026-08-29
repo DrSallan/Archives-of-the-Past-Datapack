@@ -1,0 +1,32 @@
+{
+  "parent": "s_archive:game/real/dino_egg",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "stone_wheel"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.real.stone_wheel",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.real.stone_wheel"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "s_archive:game/real/gramophone",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "telegraph_key"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.real.telegraph_key",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.real.telegraph_key"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:nbt": "{leash:{}}",
+    "minecraft:location": {
+      "position": {
+        "y": {
+          "min": 400,
+          "max": 1000
+        }
+      }
+    }
+  }
+}

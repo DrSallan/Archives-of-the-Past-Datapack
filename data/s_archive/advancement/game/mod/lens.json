@@ -1,0 +1,33 @@
+{
+  "parent": "s_archive:game/mod/quarry",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "lens"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.mod.lens",
+      "fallback": "Thaumometer",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.mod.lens"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

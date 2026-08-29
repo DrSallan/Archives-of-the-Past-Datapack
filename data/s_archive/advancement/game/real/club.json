@@ -1,0 +1,32 @@
+{
+  "parent": "s_archive:game/real",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "club"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.real.club",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.real.club"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "trophy_mod"
+                  ]
+                },
+                "item_name": {
+                  "translate": "item.mod.trophy",
+                  "color": "gold"
+                },
+                "tooltip_style": "s_archive:mod",
+                "lore" : [
+                  {"text":""},
+                  [
+                    {"translate":"item.trophy.flavor1","color":"gray","italic":false}
+                  ],
+                  [
+                    {"translate":"item.trophy.flavor2","color":"gray","italic":false}
+                  ],
+                  {"text":""},
+                  [
+                    {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
+                  ]
+                ],
+                "custom_data": {
+                  "area" : "mod",
+                  "slot_id" : "trophy_mod"
+                },
+                "max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

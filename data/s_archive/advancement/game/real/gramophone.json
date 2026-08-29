@@ -1,0 +1,32 @@
+{
+  "parent": "s_archive:game/real/bike",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "gramophone"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.real.gramophone",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.real.gramophone"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

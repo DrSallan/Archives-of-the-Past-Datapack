@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    "XX"
+  ],
+  "key": {
+    "X": [
+      "minecraft:stone_stairs"
+    ]
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "stone_wheel"
+                  ]
+                },
+                "item_name": {
+                  "translate": "item.real.stone_wheel",
+                  "color": "white"
+                },
+                "tooltip_style": "s_archive:real",
+                "lore" : [
+                  {"translate":"item.real.stone_wheel.source","color":"aqua","italic":false},
+                  {"text":""},
+                  [
+                    {"translate":"item.flavor1","color":"gray","italic":false}
+                  ],
+                  [
+                    {"translate":"item.flavor2","color":"gray","italic":false}
+                  ],
+                  {"text":""},
+                  [
+                    {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
+                  ]
+                ],
+                "custom_data": {
+                  "area" : "real",
+                  "slot_id" : "stone_wheel"
+                },
+                "max_stack_size": 1
+              }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "s_archive:game/mod",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "chisel"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.mod.chisel",
+      "fallback": "Chisel",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.mod.chisel"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

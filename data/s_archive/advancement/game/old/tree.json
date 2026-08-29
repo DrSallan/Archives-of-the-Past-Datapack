@@ -1,0 +1,33 @@
+{
+  "parent": "s_archive:game/old/cobble",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "tree"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.old.tree",
+      "fallback": "tree",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.old.tree"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

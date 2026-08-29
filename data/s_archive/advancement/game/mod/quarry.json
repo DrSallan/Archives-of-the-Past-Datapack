@@ -1,0 +1,33 @@
+{
+  "parent": "s_archive:game/mod/cheese",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "quarry"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.mod.quarry",
+      "fallback": "Quarry",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.mod.quarry"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XA ",
+    "ABA",
+    " AC"
+  ],
+  "key": {
+    "X": [
+      "minecraft:ender_pearl"
+    ],
+    "A": [
+      "minecraft:iron_ingot"
+    ],
+    "B": [
+      "minecraft:cake"
+    ],
+    "C": [
+      "minecraft:potato"
+    ]
+  },
+  "result": {
+    "id": "minecraft:glow_item_frame",
+    "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "portal_gun"
+                  ]
+                },
+                "item_name": {
+                  "translate": "item.mod.portal_gun",
+                  "color": "white"
+                },
+                "tooltip_style": "s_archive:mod",
+                "lore" : [
+                  {"translate":"item.mod.portal_gun.source","color":"aqua","italic":false},
+                  {"text":""},
+                  [
+                    {"translate":"item.flavor1","color":"gray","italic":false}
+                  ],
+                  [
+                    {"translate":"item.flavor2","color":"gray","italic":false}
+                  ],
+                  {"text":""},
+                  [
+                    {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
+                  ]
+                ],
+                "custom_data": {
+                  "area" : "mod",
+                  "slot_id" : "portal_gun"
+                },
+                "max_stack_size": 1
+              }
+  }
+}

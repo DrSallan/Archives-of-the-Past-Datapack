@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_item_frame",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "archive_spawn"
+                  ]
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:glow_item_frame",
+                  "Silent": true,
+                  "Tags": [
+                    "archive_placer"
+                  ],
+                  "Invisible": true,
+                  "Fixed": true
+                },
+                "max_stack_size": 1,
+                "item_name": {
+                  "translate": "item.placer",
+                  "color": "white"
+                },
+                "lore" : [
+                  {"text":""},
+                  [
+                    {"translate":"item.placer.lore1","color":"gray","italic":false}
+                  ],
+                  [
+                    {"translate":"item.placer.lore2","color":"gray","italic":false}
+                  ],
+                  {"text":""},
+                  [
+                    {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
+                  ]
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

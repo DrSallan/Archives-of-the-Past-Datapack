@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XAX",
+    "ABA",
+    "ACA"
+  ],
+  "key": {
+    "X": [
+      "minecraft:brick_stairs"
+    ],
+    "A": [
+      "minecraft:sandstone"
+    ],
+    "B": [
+      "minecraft:ender_pearl"
+    ],
+    "C": [
+      "minecraft:writable_book"
+    ]
+  },
+  "result": {
+    "id": "minecraft:glow_item_frame",
+    "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "archive_spawn"
+                  ]
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:glow_item_frame",
+                  "Silent": true,
+                  "Tags": [
+                    "archive_placer"
+                  ],
+                  "Invisible": true,
+                  "Fixed": true
+                },
+                "max_stack_size": 1,
+                "item_name": {
+                  "translate": "item.placer",
+                  "color": "white"
+                },
+                "lore" : [
+                  {"text":""},
+                  [
+                    {"translate":"item.placer.lore1","color":"gray","italic":false}
+                  ],
+                  [
+                    {"translate":"item.placer.lore2","color":"gray","italic":false}
+                  ],
+                  {"text":""},
+                  [
+                    {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
+                  ]
+                ]
+              }
+  }
+}

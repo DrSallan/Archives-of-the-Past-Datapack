@@ -1,0 +1,29 @@
+{
+  "parent": "s_archive:game/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "texture": "s_archive:item/mod"
+        }
+      }
+    },
+    "title": {
+      "translate": "adv.mod",
+      "color": "gold"
+    },
+    "description": {
+      "translate": "adv.mod.desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

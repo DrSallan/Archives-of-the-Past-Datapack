@@ -1,0 +1,1 @@
+$advancement grant @s only s_archive:game/$(area)/$(slot_id)

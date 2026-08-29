@@ -1,0 +1,33 @@
+{
+  "parent": "s_archive:game/mod/angel_block",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond",
+      "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "better_barrel"
+                  ]
+                }
+              }
+    },
+    "title": {
+      "translate": "item.mod.better_barrel",
+      "fallback": "Better Barrel",
+      "color": "white"
+    },
+    "description": {
+      "translate": "adv.mod.better_barrel"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

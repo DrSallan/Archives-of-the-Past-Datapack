@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "sub_id": "trophy_placer"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+    "rewards": {
+    "function": "s_archive:items/trophy/adv_place"
+  }
+}

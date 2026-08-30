@@ -1,0 +1,109 @@
+{
+  "criteria": {
+    "pumpkin": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check","offsetX": 0,"offsetY": 0,"offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:carved_pumpkin"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check","offsetX": 0,"offsetY": -1,"offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:red_wool"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check","offsetX": 0,"offsetY": -2,"offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:polished_tuff"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check","offsetX": 0,"offsetY": -1,"offsetZ": 1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:polished_tuff"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check","offsetX": 0,"offsetY": -1,"offsetZ": -1,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:polished_tuff"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check","offsetX": 0,"offsetY": 0,"offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:carved_pumpkin"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check","offsetX": 0,"offsetY": -1,"offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:red_wool"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check","offsetX": 0,"offsetY": -2,"offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:polished_tuff"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check","offsetX": 1,"offsetY": -1,"offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:polished_tuff"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:location_check","offsetX": -1,"offsetY": -1,"offsetZ": 0,
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:polished_tuff"
+                  }
+                }
+              }
+            ]
+          }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "s_archive:items/old/adv_tuff"
+  }
+}

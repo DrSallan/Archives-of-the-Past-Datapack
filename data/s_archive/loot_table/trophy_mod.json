@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:command_block",
+          "name": "minecraft:glow_item_frame",
           "conditions": [],
           "functions": [
             {
@@ -20,6 +20,15 @@
                 "item_name": {
                   "translate": "item.mod.trophy",
                   "color": "gold"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:glow_item_frame",
+                  "Silent": true,
+                  "Tags": [
+                    "trophy_placer","mod_trophy_placer"
+                  ],
+                  "Invisible": true,
+                  "Fixed": true
                 },
                 "tooltip_style": "s_archive:mod",
                 "lore" : [
@@ -36,8 +45,8 @@
                   ]
                 ],
                 "custom_data": {
-                  "area" : "mod",
-                  "slot_id" : "trophy_mod"
+                  "id" : "trophy_mod",
+                  "sub_id" : "trophy_placer"
                 },
                 "max_stack_size": 1
               }

@@ -30,7 +30,13 @@
   },
   "rewards": {
     "recipes": [
-      "s_archive:archives"
+      "s_archive:archives",
+      "s_archive:portal_gun",
+      "s_archive:nuke",
+      "s_archive:stone_wheel",
+      "s_archive:cog",
+      "s_archive:telegraph_key",
+      "s_archive:glare"
     ]
   }
 }

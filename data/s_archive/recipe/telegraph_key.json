@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " AA",
+    "BBB"
+  ],
+  "key": {
+    "X": [
+      "minecraft:gold_nugget"
+    ],
+    "A": [
+      "minecraft:gold_ingot"
+    ],
+    "B": [
+      "minecraft:spruce_pressure_plate"
+    ]
+  },
+  "result": {
+    "id": "minecraft:command_block",
+    "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "telegraph_key"
+                  ]
+                },
+                "item_name": {
+                  "translate": "item.real.telegraph_key",
+                  "color": "white"
+                },
+                "tooltip_style": "s_archive:real",
+                "lore" : [
+                  {"translate":"item.real.telegraph_key.source","color":"aqua","italic":false},
+                  {"text":""},
+                  [
+                    {"translate":"item.flavor1","color":"gray","italic":false}
+                  ],
+                  [
+                    {"translate":"item.flavor2","color":"gray","italic":false}
+                  ],
+                  {"text":""},
+                  [
+                    {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
+                  ]
+                ],
+                "custom_data": {
+                  "area" : "real",
+                  "slot_id" : "telegraph_key"
+                },
+                "max_stack_size": 1
+              }
+  }
+}

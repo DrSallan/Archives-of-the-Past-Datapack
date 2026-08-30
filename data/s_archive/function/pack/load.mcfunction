@@ -7,6 +7,7 @@ scoreboard players set #100 const 100
 scoreboard objectives add sa_player_id dummy
 scoreboard objectives add sa_entity_id dummy
 
+scoreboard objectives add sa_raycast dummy
 scoreboard objectives add sa_mod_count dummy
 scoreboard objectives add sa_real_count dummy
 scoreboard objectives add sa_old_count dummy

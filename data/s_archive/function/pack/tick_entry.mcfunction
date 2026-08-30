@@ -1,1 +1,0 @@
-execute as @a[distance=..1.5,tag=!returning_from_archive] run function s_archive:structure/entry/teleport

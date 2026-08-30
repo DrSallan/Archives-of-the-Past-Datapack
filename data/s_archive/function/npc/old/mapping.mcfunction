@@ -15,3 +15,5 @@ execute if score .dialogue sa_trigger_dialogue matches 3 run tellraw @s [ \
     {text:"<",color:white},{translate:"npc.old.name",color:green},{text:"> ",color:white},{translate:"npc.old.answer3",color:aqua}, \
     {text:"\n",color:white}, \
     ]
+
+execute if score .dialogue sa_trigger_dialogue matches 4 run function s_archive:npc/old/trophy

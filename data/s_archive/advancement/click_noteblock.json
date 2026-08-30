@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "click": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": {},
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#s_archive:discs"
+            }
+          }
+        ]
+      }
+    }
+  },
+    "rewards": {
+    "function": "s_archive:items/real/gramophone/adv"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "int": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "nbt": "{Tags:[\"crab_int\"]}"
+        }
+      }
+    }
+  },
+    "rewards": {
+    "function": "s_archive:items/old/crab_adv"
+  }
+}

@@ -43,7 +43,10 @@
                   [
                     {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
                   ]
-                ]
+                ],
+                "custom_data": {
+                  "id" : "archives_placer"
+                }
               }
             },
             {

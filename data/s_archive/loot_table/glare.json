@@ -39,7 +39,8 @@
                 "custom_data": {
                   "area" : "old",
                   "slot_id" : "glare"
-                }
+                },
+                "max_stack_size": 1
               }
             },
             {

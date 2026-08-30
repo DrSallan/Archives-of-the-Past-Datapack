@@ -39,7 +39,8 @@
                 "custom_data": {
                   "area" : "old",
                   "slot_id" : "crab"
-                }
+                },
+                "max_stack_size": 1
               }
             },
             {

@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_item_frame",
+          "conditions": [],
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "s_archive:general",
+                "minecraft:custom_model_data": {
+                  "strings": [
+                    "trophy_old"
+                  ]
+                },
+                "item_name": {
+                  "translate": "item.old.trophy",
+                  "color": "gold"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:glow_item_frame",
+                  "Silent": true,
+                  "Tags": [
+                    "trophy_placer","old_trophy_placer"
+                  ],
+                  "Invisible": true,
+                  "Fixed": true
+                },
+                "tooltip_style": "s_archive:old",
+                "lore" : [
+                  {"text":""},
+                  [
+                    {"translate":"item.trophy.flavor1","color":"gray","italic":false}
+                  ],
+                  [
+                    {"translate":"item.trophy.flavor2","color":"gray","italic":false}
+                  ],
+                  {"text":""},
+                  [
+                    {"text":"ᴀʀᴄʜɪᴠᴇꜱ ᴏꜰ ᴛʜᴇ ᴘᴀꜱᴛ","color":"light_purple","italic":false}
+                  ]
+                ],
+                "custom_data": {
+                  "id" : "trophy_old",
+                  "sub_id" : "trophy_placer"
+                },
+                "max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

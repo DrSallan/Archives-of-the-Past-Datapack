@@ -1,0 +1,54 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {"when": "doorway","model": {"type": "minecraft:model","model": "s_archive:block/doorway"}},
+      {"when": "doorway_big","model": {"type": "minecraft:model","model": "s_archive:block/doorway_big"}},
+      {"when": "case","model": {"type": "minecraft:model","model": "s_archive:block/case"}},
+      {"when": "horse_block","model": {"type": "minecraft:model","model": "s_archive:block/horse"}},
+
+      {"when": "minecraft_history","model": {"type": "minecraft:model","model": "s_archive:block/minecraft_history"}},
+      {"when": "real_history","model": {"type": "minecraft:model","model": "s_archive:block/real_history"}},
+      {"when": "old_history","model": {"type": "minecraft:model","model": "s_archive:block/old_history"}},
+      
+      {"when": "archive_spawn","model": {"type": "minecraft:model","model": "s_archive:item/archive_spawn"}},
+      
+
+      {"when": "trophy_mod","model": {"type": "minecraft:model","model": "s_archive:item/trophy_mod"}},
+      {"when": "trophy_old","model": {"type": "minecraft:model","model": "s_archive:item/trophy_old"}},
+      {"when": "trophy_real","model": {"type": "minecraft:model","model": "s_archive:item/trophy_real"}},
+
+      {"when": "chisel","model": {"type": "minecraft:model","model": "s_archive:item/chisel"}},
+      {"when": "angel_block","model": {"type": "minecraft:model","model": "s_archive:item/angel_block"}},
+      {"when": "better_barrel","model": {"type": "minecraft:model","model": "s_archive:item/better_barrel"}},
+      {"when": "cheese","model": {"type": "minecraft:model","model": "s_archive:item/cheese"}},
+      {"when": "quarry","model": {"type": "minecraft:model","model": "s_archive:item/quarry"}},
+      {"when": "lens","model": {"type": "minecraft:model","model": "s_archive:item/lens"}},
+      {"when": "lucky_block","model": {"type": "minecraft:model","model": "s_archive:item/lucky_block"}},
+      {"when": "nuke","model": {"type": "minecraft:model","model": "s_archive:item/nuke"}},
+      {"when": "portal_gun","model": {"type": "minecraft:model","model": "s_archive:item/portal_gun"}},
+
+      {"when": "club","model": {"type": "minecraft:model","model": "s_archive:item/club"}},
+      {"when": "dino_egg","model": {"type": "minecraft:model","model": "s_archive:item/dino_egg"}},
+      {"when": "stone_wheel","model": {"type": "minecraft:model","model": "s_archive:item/stone_wheel"}},
+      {"when": "pandoras_box","model": {"type": "minecraft:model","model": "s_archive:item/pandoras_box"}},
+      {"when": "mask","model": {"type": "minecraft:model","model": "s_archive:item/mask"}},
+      {"when": "horse","model": {"type": "minecraft:model","model": "s_archive:item/horse"}},
+      {"when": "bike","model": {"type": "minecraft:model","model": "s_archive:item/bike"}},
+      {"when": "gramophone","model": {"type": "minecraft:model","model": "s_archive:item/gramophone"}},
+      {"when": "telegraph_key","model": {"type": "minecraft:model","model": "s_archive:item/telegraph_key"}},
+      
+      {"when": "cog","model": {"type": "minecraft:model","model": "s_archive:item/cog"}},
+      {"when": "ruby","model": {"type": "minecraft:model","model": "s_archive:item/ruby"}},
+      {"when": "quiver","model": {"type": "minecraft:model","model": "s_archive:item/quiver"}},
+      {"when": "cobble","model": {"type": "minecraft:model","model": "s_archive:item/cobble"}},
+      {"when": "tree","model": {"type": "minecraft:model","model": "s_archive:item/tree"}},
+      {"when": "herobrine","model": {"type": "minecraft:model","model": "s_archive:item/herobrine"}},
+      {"when": "tuff_golem","model": {"type": "minecraft:model","model": "s_archive:item/tuff_golem"}},
+      {"when": "glare","model": {"type": "minecraft:model","model": "s_archive:item/glare"}},
+      {"when": "crab","model": {"type": "minecraft:model","model": "s_archive:item/crab"}}
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "chars": ["a"],
+            "file": "s_archive:font/modding_history.png",
+            "ascent": 32,
+            "height": 64
+        },
+        {
+            "type": "bitmap",
+            "chars": ["b"],
+            "file": "s_archive:font/real_history.png",
+            "ascent": 32,
+            "height": 64
+        },
+        {
+            "type": "bitmap",
+            "chars": ["c"],
+            "file": "s_archive:font/minecraft_history.png",
+            "ascent": 32,
+            "height": 64
+        }
+    ]
+}

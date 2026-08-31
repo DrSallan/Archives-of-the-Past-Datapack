@@ -1,0 +1,15 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "s_archive:item/quiver"
+	},
+	"display": {
+		"head": {
+			"rotation": [-174.6, 18.44, -178.72],
+			"translation": [1, 9, 0],
+			"scale": [0.9, 0.9, 0.9]
+		}
+	}
+}

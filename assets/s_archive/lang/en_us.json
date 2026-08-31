@@ -1,0 +1,187 @@
+{
+    "npc.general.list" : "\n ◆ ",
+    "npc.main.name" : "DrSallan",
+    "npc.main.header" : "Hello welcome to your own Archives of the past. What can I help you with ?",
+    "npc.main.option1" : "What is this place ?",
+    "npc.main.option2" : "How do I get the Relics ?",
+    "npc.main.option3" : "Nothing, thank you !",
+    "npc.main.answer1" : "This is the Archives of the past. Here we store the most looked for Relics of the past.",
+    "npc.main.answer2" : "Every Relic has it's own way of being obtained. Some are gotten through tasks while others have a higher cost. Check your advancements for some more information!",
+    "npc.main.answer3" : "Alright bye !",
+    
+    "npc.mod.name" : "Min the Modder",
+    "npc.mod.header" : "Hi, I'm in charge of the Modding History ! What can I help you with ?",
+    "npc.mod.option1" : "Who are you ?",
+    "npc.mod.option2" : "How do I know where to place the modded Relics ?",
+    "npc.mod.option3" : "Nothing, thank you !",
+    "npc.mod.answer1" : "I'm Min! I love modding, especially the Minecraft kind! I've played through countless modpacks and even tried making my own once! That... didn't end well...",
+    "npc.mod.answer2" : "Every display case has a little sign. Click it with an empty hand to know what's supposed to be placed on it!",
+    "npc.mod.answer3" : "Alright bye !",
+    "npc.mod.trophy" : "I completed the collection, what do I get ?",
+    "npc.mod.trophy1" : "Yeah I saw !! Thanks a lot ! Here take this as a token of gratitude and to prove how good you are at modding history!",
+    "npc.mod.trophy2" : "Thanks again for completing the collection !",
+    
+    "npc.real.name" : "Harry the Historian",
+    "npc.real.header" : "Hi, I'm in charge of the Real Life History ! What can I help you with ?",
+    "npc.real.option1" : "Who are you ?",
+    "npc.real.option2" : "How do I know where to place the real life Relics ?",
+    "npc.real.option3" : "Nothing, thank you !",
+    "npc.real.answer1" : "I'm Harry! I've been studying all parts of Real Life History for as long as I have been alive! These relics mean a lot to me!",
+    "npc.real.answer2" : "Every display case has a little sign. Click it with an empty hand to know what's supposed to be placed on it!",
+    "npc.real.answer3" : "Bye!",
+    "npc.real.trophy" : "I completed the collection, what do I get ?",
+    "npc.real.trophy1" : "Yeah I saw !! Thanks a lot ! Here take this as a token of gratitude. You're almost as good at history as me!",
+    "npc.real.trophy2" : "Thanks again for completing the collection !",
+    
+    "npc.old.name" : "Mark the Miner",
+    "npc.old.header" : "Hi, I'm in charge of the Minecraft History ! What can I help you with ?",
+    "npc.old.option1" : "Who are you ?",
+    "npc.old.option2" : "How do I know where to place the real life Relics ?",
+    "npc.old.option3" : "Nothing, thank you !",
+    "npc.old.answer1" : "I'm Mark. People told me I looked like 'steve'. I didn't see it but I started mining and crafting and never really stopped! I've seen it all so it felt fitting to be leading this collection!",
+    "npc.old.answer2" : "Every display case has a little sign. Click it with an empty hand to know what's supposed to be placed on it!",
+    "npc.old.answer3" : "Alright bye !",
+    "npc.old.trophy" : "I completed the collection, what do I get ?",
+    "npc.old.trophy1" : "OMG!! I haven't seen some of these in AGES! Thanks a lot ! Here take this as a thank you!",
+    "npc.old.trophy2" : "Thanks again for completing the collection !",
+
+    "item.flavor1" : "Bring this item to the Archives of the Past",
+    "item.flavor2" : "and deposit it in it's resting place.",
+    
+    "case.sign_reads" : "The sign on this case reads: ",
+    "case.sign_reads2" : "Here lies the item known as ",
+    
+    "adv.mod" : "Mod History",
+    "adv.old" : "Minecraft History",
+    "adv.real" : "Real Life History",
+    "adv.mod.desc" : "Place all the Modding Relics in their cases to complete the advancements",
+    "adv.old.desc" : "Place all the Real Life Relics in their cases to complete the advancements",
+    "adv.real.desc" : "Place all the Minecraft Relics in their cases to complete the advancements",
+
+    "item.placer" : "Archives of the Past",
+    "item.placer.lore1" : "Right click with this item to place the Archives.",
+    "item.placer.lore2" : "Be sure there is at least a 9x15x11 space to place it.",
+
+    "item.mod.trophy" : "Mod History Trophy",
+    "item.real.trophy" : "Real Life History Trophy",
+    "item.old.trophy" : "Minecraft History Trophy",
+    "item.trophy.flavor1" : "Awarded to you for completing one of the",
+    "item.trophy.flavor2" : "sections of the Archives of the Past.",
+
+    
+
+    "item.mod.chisel" : "Chisel",
+    "item.mod.chisel.source" : "Relic from Chisel",
+    "adv.mod.chisel" : "Traded by wandering traders",
+
+    "item.mod.angel_block" : "Angel Block",
+    "item.mod.angel_block.source" : "Relic from Extra Utilities",
+    "adv.mod.angel_block" : "Sometimes found in end cities",
+    
+    "item.mod.better_barrel" : "Better Barrel",
+    "item.mod.better_barrel.source" : "Relic from JABBA",
+    "adv.mod.better_barrel" : "Explode a TNT in the center of a 3x3x3 of barrels",
+    
+    "item.mod.cheese" : "Cheese",
+    "item.mod.cheese.source" : "Relic from Galacticraft",
+    "adv.mod.cheese" : "Bring a cow 400 blocks into the sky using a lead",
+    
+    "item.mod.quarry" : "Quarry",
+    "item.mod.quarry.source" : "Relic from Buildcraft",
+    "adv.mod.quarry" : "Obtained after mining 4096 blocks",
+    
+    "item.mod.lens" : "Thaumometer",
+    "item.mod.lens.source" : "Relic from Thaumcraft",
+    "adv.mod.lens" : "Sometimes dropped by witches",
+    
+    "item.mod.lucky_block" : "Lucky Block",
+    "item.mod.lucky_block.source" : "Relic from the Lucky Block mod",
+    "adv.mod.lucky_block" : "Throw a gold block in a wishing well",
+    
+    "item.mod.nuke" : "Meteor TNT",
+    "item.mod.nuke.source" : "Relic from Too Much TNT",
+    "adv.mod.nuke" : "Crafted using 4 Coal Blocks, 4 TNT and a Netherite Ingot",
+    
+    "item.mod.portal_gun" : "Portal Gun",
+    "item.mod.portal_gun.source" : "Relic from the Portal Gun mod",
+    "adv.mod.portal_gun" : "Crafted using 4 Iron Ingots, 1 Cake, 1 Enderpearl and 1 Potato",
+
+    "item.quarry.obtain" : "You've found something logged in the stone...",
+
+
+    "item.real.club" : "Wooden Club",
+    "item.real.club.source" : "Relic forged by a Caveman",
+    "adv.real.club" : "Find a zombie holding it and kill them",
+
+    "item.real.dino_egg" : "Dinosaur Egg",
+    "item.real.dino_egg.source" : "Relic abandonned by a Dino",
+    "adv.real.dino_egg" : "Sometimes layed by chickens",
+    
+    "item.real.stone_wheel" : "Stone Wheel",
+    "item.real.stone_wheel.source" : "Relic invented by a Caveman",
+    "adv.real.stone_wheel" : "Crafted with 4 stone stairs",
+    
+    "item.real.pandoras_box" : "Pandora's Box",
+    "item.real.pandoras_box.source" : "Relic from the poem 'Works and Days' c. 700",
+    "adv.real.pandoras_box" : "Sometimes drops from Ominous Trial Vaults",
+    
+    "item.real.mask" : "The Golden Burial Mask of Tutankhamun",
+    "item.real.mask.source" : "Relic found in Tutankhamun's Tomb after 3000 years",
+    "adv.real.mask" : "Can be found burried in sand inside Desert Pyramids",
+    
+    "item.real.horse" : "Trojan Horse",
+    "item.real.horse.source" : "Relic from the Greek Mythology (Trojan War)",
+    "adv.real.horse" : "Sometimes a horse might be a wooden one...",
+    
+    "item.real.bike" : "Penny-Farthing Bicycle",
+    "item.real.bike.source" : "Relic popular in the 1870s and 1880s",
+    "adv.real.bike" : "Can be found in pillager outposts",
+    
+    "item.real.gramophone" : "Gramophone",
+    "item.real.gramophone.source" : "Relic first produced end of 1880s",
+    "adv.real.gramophone" : "Convert a Jukebox with a Gold Block on top by putting a music disk in it",
+    
+    "item.real.telegraph_key" : "Telegraph Key",
+    "item.real.telegraph_key.source" : "Relic from the 1830s and 1840s",
+    "adv.real.telegraph_key" : "Crafted using 3 Spruce Pressure Plates, 2 Gold Ingots and 3 Gold Nuggets",
+
+    
+
+    "item.old.cog" : "Gear",
+    "item.old.cog.source" : "Relic removed in Alpha 1.0.1",
+    "adv.old.cog" : "Crafted with 4 Iron Nuggets, 4 Iron Ingots and 1 Redstone Block",
+
+    "item.old.ruby" : "Ruby",
+    "item.old.ruby.source" : "Relic replaced with Emerald during development",
+    "adv.old.ruby" : "Rarely dropped instead of Emerald when mining an emerald ore",
+    
+    "item.old.quiver" : "Quiver",
+    "item.old.quiver.source" : "Relic first added and removed in Indev 0.31",
+    "adv.old.quiver" : "Sometimes dropped by Strays when killed by a player",
+    
+    "item.old.cobble" : "Cobblestone (Relic)",
+    "item.old.cobble.source" : "Iconic Relic that first appeared in RubyDung",
+    "adv.old.cobble" : "Can be found in Dungeon Chests",
+    
+    "item.old.tree" : "Old Oak Tree",
+    "item.old.tree.source" : "Relic first appeared in Classic 0.0.15a",
+    "adv.old.tree" : "Rarely drops from Oak Leaves when mined with any Hoe",
+
+    "item.old.herobrine" : "Herobrine",
+    "item.old.herobrine.source" : "Always watching...",
+    "adv.old.herobrine" : "Rarely obtained from breaking any Spawner",
+    
+    "item.old.tuff_golem" : "Tuff Golem",
+    "item.old.tuff_golem.source" : "Relic voted off during Minecraft Live 2022",
+    "adv.old.tuff_golem" : "Obtained like building Iron Golem but out of Polished Tuff and replacing the center with Red Wool",
+    
+    "item.old.glare" : "Glare",
+    "item.old.glare.source" : "Relic voted off during Minecraft Live 2021",
+    "adv.old.glare" : "Crafted using 2 Fermented Spider Eyes and 7 Moss Blocks",
+    
+    "item.old.crab" : "Crab",
+    "item.old.crab.source" : "Relic voted off during Minecraft Live 2023",
+    "adv.old.crab" : "Can be found at the bottom of the ocean near schools of Cod"
+
+
+}

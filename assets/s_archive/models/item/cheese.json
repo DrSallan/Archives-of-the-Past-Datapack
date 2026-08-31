@@ -1,0 +1,14 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "s_archive:item/cheese"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 21, 0],
+			"translation": [0, 9, 0]
+		}
+	}
+}
